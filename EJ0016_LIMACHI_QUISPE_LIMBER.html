@@ -1,0 +1,44 @@
+<html> 
+    <head>
+    </head>
+    <body> 
+
+        <table border="1" > <!-- Inicio de la tabla con borde -->
+            <tr>
+                <th colspan="2">datos de la mascota</th> <!-- Encabezado que ocupa 2 columnas -->
+            </tr>
+
+            <tr>
+                <td>Nombre Mascota:</td> <!-- Etiqueta de la celda -->
+                <td><input type="text" name="nombre" placeholder="Ej. Rocky"></td> <!-- Campo para ingresar el nombre -->
+            </tr>
+
+            <tr>
+                <td>Edad:</td> <!-- Etiqueta de la celda -->
+                <td><input type="number" name="edad" min="0" max="50" placeholder="Ej. 3" style="width:100%;"></td> <!-- Campo para ingresar edad, ocupa todo el ancho de la celda -->
+            </tr>
+
+            <tr>
+                <td>Raza:</td> <!-- Etiqueta de la celda -->
+                <td><input type="text" name="raza" placeholder="Ej. San Bernardo"></td> <!-- Campo para ingresar raza -->
+            </tr>
+
+            <tr>
+                <td>Color:</td> <!-- Etiqueta de la celda -->
+                <td><input type="text" name="color" placeholder="Ej. Negro"></td> <!-- Campo para ingresar color -->
+            </tr>
+
+            <tr>
+                <td>Peso (Kg):</td> <!-- Etiqueta de la celda -->
+                <td><input type="number" name="peso" min="0" step="0.1" placeholder="Ej. 10,2"></td> <!-- Campo para ingresar peso con decimales -->
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                <button type="submit" style="width:100%;">Guardar Datos Mascota</button> <!-- Botón que ocupa todo el ancho de la celda -->
+                </td>
+            </tr>
+        </table> <!-- Fin de la tabla -->
+
+    </body> 
+</html> 

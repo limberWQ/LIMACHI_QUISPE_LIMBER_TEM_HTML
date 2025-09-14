@@ -1,0 +1,37 @@
+<html>
+<head></head>
+<body>
+    <table border="1"><!-- Inicio de la tabla con borde de grosor 1 -->
+
+        <tr>
+            <th colspan="2" style="text-align: center;">DATOS</th><!-- Fila de encabezado de la tabla que ocupa 2 columnas y centrada -->
+        </tr>
+
+        <tr>
+            <td>Nombre:</td><!-- Celda con la etiqueta para el nombre -->
+            <td><input type="text" name="nombre" placeholder="Ej. Limber"></td><!-- Campo de texto para ingresar el nombre de la persona -->
+        </tr>
+
+        <tr>
+            <td>Apellidos:</td><!-- Celda con la etiqueta para los apellidos -->
+            <td><input type="text" name="apellido" placeholder="Ej. Limachi Quispe"></td><!-- Campo de texto para ingresar los apellidos -->
+        </tr>
+
+        <tr>
+            <td>Edad:</td><!-- Celda con la etiqueta para la edad -->
+            <td><input type="number" min="0" max="120" style="width: 100%;"></td><!-- Campo numérico para ingresar la edad, ocupa todo el ancho de la celda -->
+        </tr>
+
+        <tr>
+            <td>Genero</td><!-- Celda con la etiqueta para el género -->
+            <td>
+                <select name="genero" style="width: 100%;" placeholder="Selecione"><!-- Menú desplegable para seleccionar género, ocupa todo el ancho de la celda -->
+                    <option value="">Selecione</option><!-- Opción por defecto para indicar que se debe seleccionar algo -->
+                    <option value="Masculino">Masculino</option><!-- Opción Masculino -->
+                    <option value="Femenino">Femenino</option><!-- Opción Femenino -->
+                </select>
+            </td>
+        </tr>
+    </table><!-- Fin de la tabla -->
+</body>
+</html>
